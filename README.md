@@ -120,7 +120,7 @@ Look into this link for [`straight line motion`](http://answers.gazebosim.org/qu
 ```
 sudo apt-get install ros-kinetic-moveit
 ```
-launch teh Moveit Setup Assistant
+launch the Moveit Setup Assistant
 ```
 roslaunch moveit_setup_assistant setup_assistant.launch
 
