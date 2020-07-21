@@ -111,8 +111,8 @@ class ur5_mp:
         # self.waypoints.append(deepcopy(wpose))
 
 
-        if np.sqrt((wpose.position.x-start_pose.position.x)**2+(wpose.position.x-start_pose.position.x)**2 \
-            +(wpose.position.x-start_pose.position.x)**2)<0.1:
+        if np.sqrt((wpose.position.x-start_pose.position.x)**2+(wpose.position.y-start_pose.position.y)**2 \
+            +(wpose.position.z-start_pose.position.z)**2)<0.1:
             rospy.loginfo("Warnig: target position overlaps with the initial position!")
 
         # self.arm.set_pose_target(wpose)
